@@ -1120,7 +1120,7 @@ root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(1, weight=1)
 l2 = Label(root, text="by", font=('arial 12'))
 l2.pack(fill="both", expand=True)
-l3 = Label(root, text="Anand Vijay Rajsri (00120807717)\nDeepanshu Bisht (40120807717) ", font=('arial 18'),
+l3 = Label(root, text="Anand Vijay Rajsri (00120807717)", font=('arial 18'),
            fg="#009bff")
 l3.pack(fill="both", expand=True)
 l4 = Label(root, text="... Tap To Continue ...", relief=SUNKEN, bd=1)
