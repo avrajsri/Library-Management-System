@@ -34,10 +34,10 @@ def fun(event):
     sleep(1)
     root1 = Tk()
     root1.geometry("450x250")
-    root1.resizable(width=False, height=False)
+    root1.resizable(width=False, height=False)    
+    center(root1)
     root1.title("Login")
     root1.focus_set()
-    center(root1)
 
     ############################### class Add_stf#######################################
     class Add_stf(Text):
@@ -1109,10 +1109,10 @@ def fun(event):
     root1.mainloop()
 
 center(root)
-root.bind("<Button-1>", fun)
-root.bind("<Return>", fun)
 root.bind("<Tab>", fun)
 root.bind("<space>", fun)
+root.bind("<Return>", fun)
+root.bind("<Button-1>", fun)
 
 l1 = Label(root, text="Library Management System", font=('arial 24 bold'), fg="#009bff")
 l1.pack(fill="both", expand=True)
